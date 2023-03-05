@@ -1,29 +1,29 @@
-// Cold colors
-$aqua: #7fdbff
-$blue: #0074d9
-$navy: #001f3f
-$teal: #39cccc
-$green: #2ecc40
-$olive: #3d9970
-$lime: #01ff70
-
-// Warm colors
-$yellow: #ffdc00
-$orange: #ff851b
-$red: #ff4136
-$fuchsia: #f012be
-$purple: #b10dc9
-$maroon: #85144b
-
+$bgColor:#FBF7EF
 // Grayscale
 $white: #ffffff
 $silver: #dddddd
 $gray: #aaaaaa
 $black: #111111
+$lightBlack: #232E3E
 
-$main-background-color: $white
-$main-text-color: $black
-$divider-color: rgba($black, .14)
+@font-face
+  font-family: 'Manrope-Medium'
+  src: url('../assets/fonts/Manrope-Bold.ttf')
+
+@font-face
+  font-family: 'Manrope-Bold'
+  src: url('../assets/fonts/Manrope-Bold.ttf')
+
+@font-face
+  font-family: 'Helmet-Regular'
+  src: url('../assets/fonts/Helmet-Regular.ttf')
+
+$bodyFont_Medium: 'Manrope-Medium'
+$bodyFont_Bold: 'Manrope-Bold'
+$headerFont: 'Helmet-Regular'
+$main-background-color: $bgColor
+$main-text-color: $lightBlack
+$divider-color: rgba($lightBlack, .14)
 
 $main-text-size: 14px
 $main-border-radius: 6px
@@ -35,3 +35,5 @@ $large-space: 64px
 $phone-size: 600px
 $tablet-size: 992px
 $desktop-size: 1200px
+
+$bodyPadding: 60px
