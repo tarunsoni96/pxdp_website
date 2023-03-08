@@ -8,6 +8,7 @@ import HowWeWork from '../components/HowWeWork'
 import AboutusSections from '../components/AboutusSections'
 import QuadrantView from '../components/QuadrantView'
 import WhatDoYouNeed from '../components/WhatDoYouNeed'
+import BudgetInteraction from '../components/BudgetInteraction'
 const HomePage = () => {
     let fs = 70
     return (
@@ -83,10 +84,11 @@ const HomePage = () => {
             <SectionTitleBox sectionTitle="about us" title="know our company" />
             <AboutusSections />
             <QuadrantView />
-            <div style={{marginTop:100}} >
-
-            <WhatDoYouNeed />
+            <div style={{ marginTop: 100 }}>
+                <WhatDoYouNeed />
             </div>
+
+            <BudgetInteraction />
         </div>
     )
 }
