@@ -7,25 +7,26 @@ import ProjectSection from '../components/ProjectSection'
 import HowWeWork from '../components/HowWeWork'
 import AboutusSections from '../components/AboutusSections'
 import QuadrantView from '../components/QuadrantView'
+import WhatDoYouNeed from '../components/WhatDoYouNeed'
 const HomePage = () => {
     let fs = 70
     return (
         <div style={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
             <Header />
             <SectionTitleBox
-                sectionTitle="we do"
+                sectionTitle="we develop for"
                 title={
                     <div style={{ flexDirection: 'row', display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'space-between' }}>
                         <span className="wideFont caps" style={{ fontSize: fs }}>
-                            Hybrid dev
+                            Hybrid
                         </span>
                         <GreenBulletPoint />
                         <span className="wideFont caps" style={{ fontSize: fs }}>
-                            Native dev
+                            Native
                         </span>
                         <GreenBulletPoint />
                         <span className="wideFont caps" style={{ fontSize: fs }}>
-                            web dev
+                            web
                         </span>
                     </div>
                 }
@@ -54,7 +55,7 @@ const HomePage = () => {
 
             <div style={{ marginBottom: 40 }}>
                 <HowWeWork
-                    title="Indentify the problem"
+                    title="Identify the problem"
                     img={require('../assets/images/process1.png')}
                     description={`We'll talk about your products, ideas and create a space for us to understand your goals and for you to spar with us about the problems you're trying to solve. From this foundation we will present suggestions on how we can be of service to bring your ideas to life.`}
                 />
@@ -80,10 +81,12 @@ const HomePage = () => {
             </div>
 
             <SectionTitleBox sectionTitle="about us" title="know our company" />
-
             <AboutusSections />
-
             <QuadrantView />
+            <div style={{marginTop:100}} >
+
+            <WhatDoYouNeed />
+            </div>
         </div>
     )
 }

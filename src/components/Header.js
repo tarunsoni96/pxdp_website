@@ -17,7 +17,7 @@ export default function Header() {
                 <span className="textDescriptionBold" style={cs}>
                     Services
                 </span>
-                <RoundHoloButton style={cs} />
+                <RoundHoloButton  />
             </div>
         </div>
     )
