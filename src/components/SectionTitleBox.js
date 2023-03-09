@@ -12,7 +12,7 @@ function SectionTitleBox(props) {
                 paddingBottom:props.hideBorder ? 0 : 15
             }}
         >
-            <span className="wideFont caps">{props.sectionTitle}</span>
+            <span className="wideFont sectionTitle caps" style={{}}>{props.sectionTitle}</span>
             <div style={{ flexDirection: 'row',alignItems:'flex-start', marginTop: 0, justifyContent: 'space-between',display: props.description ? 'flex' : 'block' }}>
                 <span className="wideFont caps" style={{ fontSize: 90, fontWeight: 900 }}>
                     {props.title}
