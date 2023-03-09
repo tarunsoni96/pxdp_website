@@ -18,7 +18,7 @@ function SectionTitleBox(props) {
                     {props.title}
                 </span>
                 {props.description && (
-                    <span className="textDescriptionBold lightColorDescription" style={{marginTop:16, fontSize: 18, maxWidth: 300 }}>
+                    <span className="textDescriptionBold lightColorDescription " style={{marginTop:16, fontSize: 18, maxWidth: 300 }}>
                         {props.description}
                     </span>
                 )}

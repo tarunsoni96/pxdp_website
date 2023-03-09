@@ -9,24 +9,25 @@ import AboutusSections from '../components/AboutusSections'
 import QuadrantView from '../components/QuadrantView'
 import WhatDoYouNeed from '../components/WhatDoYouNeed'
 import BudgetInteraction from '../components/BudgetInteraction'
+import Footer from '../components/Footer'
 const HomePage = () => {
     let fs = 70
     return (
         <div style={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
             <Header />
             <SectionTitleBox
-                sectionTitle="we develop for"
+                sectionTitle="we develop apps for"
                 title={
-                    <div style={{ flexDirection: 'row', display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'space-between' }}>
-                        <span className="wideFont caps" style={{ fontSize: fs }}>
+                    <div style={{ flexDirection: 'row', flexWrap: 'wrap', display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'space-between' }}>
+                        <span className="wideFont caps display-3 bold " style={{}}>
                             Hybrid
                         </span>
                         <GreenBulletPoint />
-                        <span className="wideFont caps" style={{ fontSize: fs }}>
+                        <span className="wideFont caps display-3 bold" style={{}}>
                             Native
                         </span>
                         <GreenBulletPoint />
-                        <span className="wideFont caps" style={{ fontSize: fs }}>
+                        <span className="wideFont caps display-3 bold " style={{}}>
                             web
                         </span>
                     </div>
@@ -89,6 +90,7 @@ const HomePage = () => {
             </div>
 
             <BudgetInteraction />
+            <Footer />
         </div>
     )
 }

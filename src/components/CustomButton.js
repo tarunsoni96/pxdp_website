@@ -1,8 +1,11 @@
 import React from 'react'
 import { commonBorderStyle } from '../styles/CommonStyles'
-function RoundHoloButton(props) {
+function CustomButton(props) {
     return (
+
         <span
+        
+        onClick={()=>props.onPress()}
             style={{
                 paddingTop: 10,
                 paddingBottom: 10,
@@ -11,8 +14,9 @@ function RoundHoloButton(props) {
                 borderRadius: 30,
                 marginRight: 0,
                 border: commonBorderStyle,
+                background:'#232E3E',
+                color:'#fff',
                 cursor:'pointer',
-
                 ...props.style
             }}
             className="textDescriptionBold"
@@ -22,4 +26,4 @@ function RoundHoloButton(props) {
     )
 }
 
-export default RoundHoloButton
+export default CustomButton

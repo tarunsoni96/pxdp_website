@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/_variables.sass'
 import { commonBorderStyle } from '../styles/CommonStyles.js'
 import RoundHoloButton from './RoundHoloButton'
+import Logo from './Logo'
 export default function Header() {
     let cs = {
         marginRight: 50,
@@ -9,7 +10,7 @@ export default function Header() {
     }
     return (
         <div id="header">
-            <span className="wideFont">PXDP</span>
+            <Logo />
             <div style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
                 <span className="textDescriptionBold" style={cs}>
                     About

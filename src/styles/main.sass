@@ -1,5 +1,8 @@
 @import './_variables'
 @import './_mixins'
+@import '../../node_modules/bootstrap/scss/functions'
+@import '../../node_modules/bootstrap/scss/variables'
+@import '../../node_modules/bootstrap/scss/mixins'
 
 *
   box-sizing: border-box
@@ -18,6 +21,7 @@ body
   -moz-osx-font-smoothing: grayscale
   color: $main-text-color
   padding:65px
+  padding-bottom: 0px
   padding-top: 40px
   background-color: $main-background-color
   font-size: $main-text-size
@@ -27,6 +31,7 @@ body
   width: 100%
   display: flex
   flex-direction: row
+  flex-wrap: wrap
   justify-content: space-between
   align-items: center
   border-bottom: 1px solid #CDCBC5
@@ -40,7 +45,9 @@ body
 
 .wideFont
   font-family: $headerFont
-  font-size: 40px
+  // font-size: 40px
+  // @include font-size(2rem)
+ 
   
 .bold
   font-weight: 900
