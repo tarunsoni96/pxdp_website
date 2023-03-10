@@ -15,7 +15,7 @@ function SectionTitleBox(props) {
             <div className="row align-items-end">
                 <div className={`col-12 col-sm-12 col-md-${props.width || '9'} col-lg-${props.width || 0}`} style={{}}>
                     <span className="wideFont sectionTitle caps">
-                        {props.sectionTitle}
+                        {props.sectionTitle} 
                     </span>
                     <div
                         style={{
