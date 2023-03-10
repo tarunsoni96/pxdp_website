@@ -16,18 +16,19 @@ const HomePage = () => {
         <div style={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
             <Header />
             <SectionTitleBox
-                sectionTitle="we develop apps for"
+                sectionTitle={<span className="wideFont weDevelopAppsForText sectionTitle caps">we develop apps for</span>}
+                width={12}
                 title={
-                    <div style={{ flexDirection: 'row', flexWrap: 'wrap', display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'space-between' }}>
-                        <span className="wideFont caps display-3 bold " style={{}}>
+                    <div style={{flexDirection:'row',display:'flex',flex:1,justifyContent:'space-between',alignItems:'center'}} >
+                        <span className="businessActivityText wideFont caps bold " style={{}}>
                             Hybrid
                         </span>
                         <GreenBulletPoint />
-                        <span className="wideFont caps display-3 bold" style={{}}>
+                        <span className="businessActivityText wideFont caps bold" style={{textAlign:'center'}}>
                             Native
                         </span>
                         <GreenBulletPoint />
-                        <span className="wideFont caps display-3 bold " style={{}}>
+                        <span className="businessActivityText wideFont caps bold " style={{textAlign:'center'}}>
                             web
                         </span>
                     </div>

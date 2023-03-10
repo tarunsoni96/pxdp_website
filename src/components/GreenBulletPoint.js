@@ -1,8 +1,8 @@
 import React from 'react'
 function GreenBulletPoint() {
-    return <div  >
+    return <div style={{width:15,marginRight:5,marginLeft:5}} >
 
-    <img src={require('../assets/images/greenBulletPoint.png')} height="20" width="20" />
+    <img src={require('../assets/images/greenBulletPoint.png')} className='img-fluid img-lg img-xs mw-1 mw-lg-0'  />
     </div>
 }
 
