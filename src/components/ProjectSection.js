@@ -11,7 +11,7 @@ function ProjectSection(props) {
 
     return (
         <div
-        className='mb-4 mb-sm-5'
+        className='mt-5 mt-sm-5'
             ref={ref}
             style={{
                 display: 'flex',

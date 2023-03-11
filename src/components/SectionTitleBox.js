@@ -31,9 +31,9 @@ function SectionTitleBox(props) {
                         </span>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-10 col-lg-3" style={{}}>
+                <div className="col-12 col-sm-12 col-md-10 col-lg-4 col-xl-3" style={{}}>
                     {props.description && (
-                        <span className="textDescriptionBold lightColorDescription " style={{ fontSize: 18 }}>
+                        <span className="textDescriptionBold lightColorDescription sectionRightDescriptionText " style={{ }}>
                             {props.description}
                         </span>
                     )}

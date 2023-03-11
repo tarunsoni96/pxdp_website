@@ -4,25 +4,26 @@ function ProcessIllustration(props) {
     let imgSize = 450
     return (
         <div
+            className="row"
             style={{
-                paddingLeft: 30,
                 display: 'flex',
                 justifyContent: 'space-between',
                 flexDirection: 'row',
                 alignItems: 'center'
             }}
         >
-            <div className="column" style={{ maxWidth: 500 }}>
-                <span className="wideFont caps bold" style={{ fontSize: 70 }}>
+            <div className="column col-12 col-sm-6" style={{}}>
+                <span className="wideFont caps bold howWeWorkTitleText " style={{}}>
                     {props.title}
                 </span>
 
-                <span className="lightColorDescription " style={{ marginTop: 10 }}>
+                <span className="lightColorDescription howWeWorkDescText " style={{ marginTop: 10 }}>
                     {props.description}
                 </span>
             </div>
-
-            <img src={props.img} style={{ objectFit:'contain' }} width={imgSize} height={imgSize} />
+            <div className="col-9 col-sm-5 col-md-4 mt-4 mt-sm-0 mx-auto" style={{}}>
+                <img src={props.img} className="img-fluid" />
+            </div>
         </div>
     )
 }

@@ -1,0 +1,51 @@
+.howWeWorkTitleText {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    /* font-size: 0px; */
+}
+
+.howWeWorkDescText,
+.sectionRightDescriptionText {
+    font-size: clamp(0.9rem, 1vw, 2rem);
+}
+
+.aboutUsText{
+    font-size: clamp(0.8rem, 1.1vw, 2rem);
+}
+
+.aboutUsTextStandAlone{
+    font-size: clamp(1rem, 1.1vw, 2rem);
+
+}
+
+.aboutUsQuadrantTopLeftText{
+    font-size: clamp(1rem, 4vw, 4rem);
+}
+
+.aboutusQuadrantMeasureText{
+    font-size: clamp(1rem, 4vw, 4rem);
+}
+
+.quadrant {
+    height: 300px;
+  }
+  
+  .quadrant-line {
+    height: 100%;
+  }
+  
+  .quadrant-line-horizontal {
+    height: 1px;
+    border-top: 1px solid #000;
+  }
+  
+  .quadrant-line-vertical {
+    width: 1px;
+    height: 100%;
+    border-left: 1px solid #ccc;
+  }
+  
+  .quadrant-content {
+    height: 100%;
+    padding: 20px;
+  }
+  

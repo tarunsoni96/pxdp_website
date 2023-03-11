@@ -4,8 +4,8 @@ import ProcessIllustration from './ProcessIllustration'
 function HowWeWork(props) {
     return (
         <div
+        className='p-1 pt-5 p-sm-5'
             style={{
-                padding: 70,
                 paddingBottom:0,
                 display: 'flex',
                 flexDirection: 'column',

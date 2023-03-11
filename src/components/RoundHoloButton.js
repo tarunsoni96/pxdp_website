@@ -3,7 +3,7 @@ import { commonBorderStyle } from '../styles/CommonStyles'
 import { Button } from '@mui/material'
 function RoundHoloButton(props) {
     return (
-        <Button className='py-0 py-sm-2' style={{paddingInline:'6%'}} >
+        <Button className='py-1 py-sm-2' style={{paddingInline:'6%'}} >
         <span className="textDescriptionBold buttonText" style={{}}>{props.title || 'Hire us'}</span>
     </Button>
         // <span
